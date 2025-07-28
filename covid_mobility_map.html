@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6a074efbea1bc51ebbbeac769b649f6a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6a074efbea1bc51ebbbeac769b649f6a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6a074efbea1bc51ebbbeac769b649f6a = L.map(
+                "map_6a074efbea1bc51ebbbeac769b649f6a",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_68e4af3b58a2c0fe586160134b4cb180 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_68e4af3b58a2c0fe586160134b4cb180.addTo(map_6a074efbea1bc51ebbbeac769b649f6a);
+        
+    
+            var circle_marker_c16c2a5e49130f9aa678edacf91143de = L.circleMarker(
+                [-14.235, -51.9253],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6a074efbea1bc51ebbbeac769b649f6a);
+        
+    
+        var popup_9ff9445617a52038edc0f8adf9346b15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8769ee44a3dbecd3524448a819f713b2 = $(`<div id="html_8769ee44a3dbecd3524448a819f713b2" style="width: 100.0%; height: 100.0%;">Brazil: -21.0% | GDP -22.1%</div>`)[0];
+                popup_9ff9445617a52038edc0f8adf9346b15.setContent(html_8769ee44a3dbecd3524448a819f713b2);
+            
+        
+
+        circle_marker_c16c2a5e49130f9aa678edacf91143de.bindPopup(popup_9ff9445617a52038edc0f8adf9346b15)
+        ;
+
+        
+    
+    
+            var circle_marker_7fe422ea5d81eebd8a58a2fa96926199 = L.circleMarker(
+                [56.1304, -106.3468],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6a074efbea1bc51ebbbeac769b649f6a);
+        
+    
+        var popup_b144abbecdf2d9a3fceb06a2e30ecb63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcfde4dd872bc2333d9934a958eb34f5 = $(`<div id="html_fcfde4dd872bc2333d9934a958eb34f5" style="width: 100.0%; height: 100.0%;">Canada: -23.6% | GDP -6.4%</div>`)[0];
+                popup_b144abbecdf2d9a3fceb06a2e30ecb63.setContent(html_fcfde4dd872bc2333d9934a958eb34f5);
+            
+        
+
+        circle_marker_7fe422ea5d81eebd8a58a2fa96926199.bindPopup(popup_b144abbecdf2d9a3fceb06a2e30ecb63)
+        ;
+
+        
+    
+    
+            var circle_marker_f08751704bb55a4b12201af2bb8be90a = L.circleMarker(
+                [46.6034, 1.8883],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6a074efbea1bc51ebbbeac769b649f6a);
+        
+    
+        var popup_53acae543e0b523d1fe6b164f2b9f740 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d6227588a8e025b55642a58bd81bc17 = $(`<div id="html_9d6227588a8e025b55642a58bd81bc17" style="width: 100.0%; height: 100.0%;">France: -38.1% | GDP -3.1%</div>`)[0];
+                popup_53acae543e0b523d1fe6b164f2b9f740.setContent(html_9d6227588a8e025b55642a58bd81bc17);
+            
+        
+
+        circle_marker_f08751704bb55a4b12201af2bb8be90a.bindPopup(popup_53acae543e0b523d1fe6b164f2b9f740)
+        ;
+
+        
+    
+    
+            var circle_marker_96730d9c789cc3c63d386ea8a0d48e73 = L.circleMarker(
+                [51.1657, 10.4515],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6a074efbea1bc51ebbbeac769b649f6a);
+        
+    
+        var popup_b9bdfe40c0af920f52d30be440426669 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_976df23ff7ce678557325e6c2204a585 = $(`<div id="html_976df23ff7ce678557325e6c2204a585" style="width: 100.0%; height: 100.0%;">Germany: -22.8% | GDP -0.3%</div>`)[0];
+                popup_b9bdfe40c0af920f52d30be440426669.setContent(html_976df23ff7ce678557325e6c2204a585);
+            
+        
+
+        circle_marker_96730d9c789cc3c63d386ea8a0d48e73.bindPopup(popup_b9bdfe40c0af920f52d30be440426669)
+        ;
+
+        
+    
+    
+            var circle_marker_5fa1a96a6d1d60f78f8b193617b5fcb9 = L.circleMarker(
+                [20.5937, 78.9629],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6a074efbea1bc51ebbbeac769b649f6a);
+        
+    
+        var popup_bd99832635c63c7a49febe71aff4a617 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b8f448de423a470df879ba269a9ecd8 = $(`<div id="html_3b8f448de423a470df879ba269a9ecd8" style="width: 100.0%; height: 100.0%;">India: -27.6% | GDP -7.2%</div>`)[0];
+                popup_bd99832635c63c7a49febe71aff4a617.setContent(html_3b8f448de423a470df879ba269a9ecd8);
+            
+        
+
+        circle_marker_5fa1a96a6d1d60f78f8b193617b5fcb9.bindPopup(popup_bd99832635c63c7a49febe71aff4a617)
+        ;
+
+        
+    
+    
+            var circle_marker_448a051c850d540f9d4543be917e2d68 = L.circleMarker(
+                [55.3781, -3.436],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6a074efbea1bc51ebbbeac769b649f6a);
+        
+    
+        var popup_9509bd68d190141adcb6cd7071c915a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68af7998a0b3e8116a64dc0c59143888 = $(`<div id="html_68af7998a0b3e8116a64dc0c59143888" style="width: 100.0%; height: 100.0%;">United Kingdom: -28.2% | GDP -5.8%</div>`)[0];
+                popup_9509bd68d190141adcb6cd7071c915a8.setContent(html_68af7998a0b3e8116a64dc0c59143888);
+            
+        
+
+        circle_marker_448a051c850d540f9d4543be917e2d68.bindPopup(popup_9509bd68d190141adcb6cd7071c915a8)
+        ;
+
+        
+    
+    
+            var circle_marker_78b630e68f0176c207b531ea385e3918 = L.circleMarker(
+                [37.0902, -95.7129],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6a074efbea1bc51ebbbeac769b649f6a);
+        
+    
+        var popup_dff168dc63b041dfb456f6e8c566fda1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87f042eb7718daf5b189914d57db06a4 = $(`<div id="html_87f042eb7718daf5b189914d57db06a4" style="width: 100.0%; height: 100.0%;">United States: -17.5% | GDP -1.4%</div>`)[0];
+                popup_dff168dc63b041dfb456f6e8c566fda1.setContent(html_87f042eb7718daf5b189914d57db06a4);
+            
+        
+
+        circle_marker_78b630e68f0176c207b531ea385e3918.bindPopup(popup_dff168dc63b041dfb456f6e8c566fda1)
+        ;
+
+        
+    
+</script>
+</html>
